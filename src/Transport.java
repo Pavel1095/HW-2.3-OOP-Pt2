@@ -8,7 +8,7 @@ public abstract class Transport {
     }
 
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        System.out.println("Меняем покрышку.");
     }
 
     public abstract void transportService();
