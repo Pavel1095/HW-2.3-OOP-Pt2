@@ -9,7 +9,7 @@ public abstract class MotorTransport {
 
     public abstract void transportService();
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        System.out.println("Меняем покрышки");
     }
     public void checkEngine() {
         System.out.println("Проверяем двигатель");

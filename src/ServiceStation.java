@@ -4,6 +4,6 @@ public class ServiceStation {
     }
 
     public void check(MotorTransport motorTransport) {
-
+        motorTransport.transportService();
     }
 }
