@@ -4,13 +4,13 @@ public class Truck extends MotorTransport {
         super(modelName, wheelCount);
     }
     public void checkTrailer() {
-        System.out.println("Проверяем прицеп грузовика");
+        System.out.println("Проверяем прицеп грузовика.");
     }
     public void checkEngine() {
-        System.out.println("Проверяем двигатель грузовика");
+        System.out.println("Проверяем двигатель грузовика.");
     }
     public void updateTyre() {
-        System.out.println("Меняем покрышку грузовика");
+        System.out.println("Меняем покрышку грузовика.");
     }
     @Override
     public void transportService() {

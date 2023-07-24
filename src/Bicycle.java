@@ -3,7 +3,7 @@ public class Bicycle extends Transport {
                 super(modelName, wheelCount);
             }
             public void updateTyre() {
-                System.out.println("Меняем покрышку велосипеда");
+                System.out.println("Меняем покрышку велосипеда.");
             }
             @Override
             public void transportService() {
